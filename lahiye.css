@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+    font-family:"Raleway", sans-serif; 
+}
+.LOGO{
+   color:black;
+   text-decoration: dotted;
+}
+.head{
+  text-align: right;
+  margin-right: 20px; 
+
+}
+.text{
+    margin-right: 20px;
+    color: black;
+    text-decoration: dotted;
+}
+.text:hover{
+    background-color: rgba(209, 208, 207, 0.348);
+}
+.one{
+    background-image: url("computer.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:580px;
+    margin: 0;
+    color: white;
+    padding-top: 150px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.start{
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+   
+}
+.stop{
+    font-size: 18px;
+    font-family:"Raleway", sans-serif;
+    margin-top: 70px;
+}
+.learn{
+    font-size: 17px;
+    margin-top: 60px;
+    color: black;
+    text-decoration: dotted;
+    background-color: rgba(190, 188, 188, 0.481);
+    width: 190px;
+    padding: 19px 24px;
+    
+}
+.learn:hover{
+    background-color: rgba(242, 241, 241, 0.816);
+}
