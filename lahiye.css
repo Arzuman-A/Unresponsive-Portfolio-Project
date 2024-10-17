@@ -128,4 +128,37 @@
 .boxx{
     margin-top: 30px;
 }
+.there{
+    height: 600px;
+    width: 100%;
+}
+.theree{
+    height: 400px;
+    background-color: rgba(231, 229, 229, 0.655);
+}
+.box1{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 300px;
+}
+.we{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    word-spacing: 8px;
+}
+.lorem1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+}
+.view{
+    color: white;
+    background-color: black;
+    text-decoration: dotted;
+}
+.box2{
+
+}
+
+
 
