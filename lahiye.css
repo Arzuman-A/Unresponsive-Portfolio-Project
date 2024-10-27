@@ -142,11 +142,12 @@
     margin-top: 30px;
 }
 .there{
-    height:550px;
+    height:600px;
     width: 100%;
     background-color: rgba(231, 229, 229, 0.655);
 }
 .theree{
+    width: 100%;
     display: flex;
     height: 250px;
 }
@@ -155,7 +156,7 @@
     width: 400px;
 }
 .we{
-    padding-top: 70px;
+    padding-top: 130px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
     word-spacing: 8px;
@@ -165,12 +166,18 @@
     margin-bottom: 30px;
     word-spacing: 5px;
 }
+.fa-bars{
+    margin-right:5px;
+}
 .view{
     color: white;
     background-color: black;
     text-decoration: none;
     padding: 8px 16px;
     cursor: pointer;
+}
+.view:hover{
+    background-color: rgb(205, 204, 204);
 }
 .box2{
     padding-top: 70px;
@@ -192,7 +199,10 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    font-family: sans-serif;
     font-size: 25px;
+    font-weight: 200;
+
 }
 .the{
     display: flex;
@@ -203,10 +213,10 @@
 .qutu1{
     margin-top: 80px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    width: 320px; 
+    width: 340px; 
     height: 450px;
-    margin-right: 20px;
-    margin-left:20px;
+    margin-right: 15px;
+    margin-left:15px;
 }
 .sekil{
     height:250px;
@@ -244,6 +254,70 @@
 .contact:hover{
     background-color: rgb(154, 152, 152);
 }
-
+.six{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(121, 119, 119);
+}
+.reqem{
+    margin-left: 250px;
+}
+.number{
+    color: white;
+    font-size:35px ;
+    font-weight: 400;
+}
+.Partners{
+    margin-top: 15px;
+    font-size: 17px;
+    color: white;
+}
+.seven{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.OUR{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+}
+.What{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size:  18px;
+    font-weight: 200; 
+    letter-spacing: 1px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.imagess{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.boximage{
+    margin: 7px;
+    height: 250px;
+    width:360px;
+    overflow: hidden;
+}
+.foto{
+    width:100%;
+    height: 100%;
+    transition:filter 0.3s ease;
+}
+.boximage:hover{
+    filter: contrast(50%);
+}
 
 
