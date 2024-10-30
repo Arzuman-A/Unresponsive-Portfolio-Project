@@ -428,16 +428,24 @@
 }
 .BASIC{
     background-color:white;
-    height:600px;
-    width:480px;
+    height:550px;
+    width:500px;
+    transition: box-shadow 0.1s ease;
     margin: 10px;
 }
 .BASICC{
     background-color:white;
-    height:650px;
-    width:450px;
+    height:600px;
+    width:500px;
+    transition: box-shadow 0.1s ease;
     margin: 10px;
     margin-top: -17px;
+}
+.BASICC:hover{
+    box-shadow: 0 4px 15px rgb(11, 0, 0); 
+}
+.BASIC:hover{
+    box-shadow: 0 4px 15px rgb(11, 0, 0);
 }
 .basik{
     font-size:25px;
@@ -513,6 +521,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .sign{
     background-color:rgb(232, 231, 231);
@@ -569,6 +578,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .signn{
     background-color:rgb(232, 231, 231);
@@ -581,11 +591,82 @@
     align-items: center;
 }
 .up{
+    border:0;
+    cursor: pointer;
     color: white;
     background-color: black;
     padding:15px 25px 15px 25px ;
 }
+.up:hover{
+    background-color: rgb(128, 127, 127);
+}
 .x{
     height:0.1px;
 }
+.b{
+    margin-right:7px;
+}
+.bb{
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
 
+
+.teen{
+    background-color:rgba(233, 231, 231, 0.773);
+    padding-top:150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cont{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.lets{
+    margin-top:30px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.teenn{
+    margin-top:70px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+.chicago{
+    margin-right:1230px;
+    font-size:18px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.fa-location-dot{
+    font-size: 40px;
+    margin-right: 27px;
+}
+.fa-phone{
+   font-size: 40px;
+   margin-right: 20px;
+}
+.fa-envelope-open{
+   font-size: 40px;
+   margin-right: 20px;
+}
+.input{
+    padding-left:10px;
+    height:40px;
+    margin-top:20px;
+}
+.duyme{
+    margin-top: 20px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    height:40px;
+}
+.fa-paper-plane{
+    margin-right:6px;
+}
