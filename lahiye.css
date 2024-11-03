@@ -5,8 +5,8 @@
 
 .first{
     position: fixed;
-    background-color: white;
-    width: 100%;
+    background-color:white;
+    width: 1520px;
     height: 60px;
     font-family:"Raleway", sans-serif; 
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
@@ -30,8 +30,8 @@
 .head{
     float: right;
     padding-top: 20px;
-  text-align: right;
-  margin-right: 20px; 
+    text-align: right;
+    margin-right: 20px; 
 
 }
 .text{
@@ -122,8 +122,7 @@
     font-size: 20px;
 }
 .four{
-    position: absolute;
-    margin-top:360px;
+    margin-top:30px;
     display: flex;
     justify-content: center;
 }
@@ -283,7 +282,7 @@
     justify-content: center;
     height: 230px;
     margin-top: 50px;
-    width: 100%;
+    width:100%;
     background-color: rgb(121, 119, 119);
 }
 .reqem{
@@ -639,22 +638,23 @@
 
 .teen{
     background-color:rgba(233, 231, 231, 0.773);
-    padding-top:150px;
+    padding-top:130px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    width:100%;
 }
 .cont{
     font-size: 25px;
     font-family: sans-serif;
 }
 .lets{
-    margin-top:30px;
+    margin-top:25px;
     font-size: 19px;
     font-family: sans-serif;
 }
 .teenn{
-    margin-top:70px;
+    margin-top:60px;
 }
 .name{
     display: flex;
@@ -663,9 +663,9 @@
     padding-left:40px;
 }
 .chicago{
-    margin-right:1230px;
+    margin-left:50px;
     font-size:18px;
-    margin-top:30px;
+    margin-top:25px;
     margin-bottom:30px;
 }
 .fa-location-dot{
@@ -684,12 +684,13 @@
    margin-left: 40px;
 }
 .input{
-    padding-left:30px;
+    margin-left:50px;
     height:40px;
     margin-top:20px;
-    width:1415px;
+    width:90%;
 }
 .duyme{
+    margin-left:50px;
     margin-top: 20px;
     width: 150px;
     color: white;
@@ -703,6 +704,9 @@
 }
 .fa-paper-plane{
     margin-right:6px;
+}
+.imgg{
+    width: 100%;
 }
 .end{
     margin-top:90px;
